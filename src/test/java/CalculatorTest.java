@@ -14,7 +14,7 @@ public class CalculatorTest {
 
 //    @Ignore
     @Test
-    public void testWithLoooooooooooooooooooooooooooooooooooooooooooooongName(){
+    public void testName(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
