@@ -7,14 +7,14 @@ public class CalculatorTest {
 
 
     @Test
-    public void testWithLooooooooooooooooooooooooooooooooooooooooooooooooooooooooongName(){
+    public void testSumm(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(5, calculator.calculateSumma(2, 3));
     }
 
-    @Ignore
+//    @Ignore
     @Test
-    public void testSumma1(){
+    public void testWithLoooooooooooooooooooooooooooooooooooooooooooooongName(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
