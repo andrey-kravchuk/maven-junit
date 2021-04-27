@@ -33,7 +33,7 @@ public class CalculatorTest {
         Assert.assertEquals(8, calculator.calculateSumma(2, 3));
     }
 
-//    @Ignore
+    @Ignore
     @Test
     public void testSumma4(){
         Calculator calculator = new Calculator();
