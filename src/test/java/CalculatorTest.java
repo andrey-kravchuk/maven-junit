@@ -7,7 +7,7 @@ public class CalculatorTest {
 
 
     @Test
-    public void testSumma(){
+    public void testWithLooooooooooooooooooooooooooooooooooooooooooooooooooooooooongName(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(5, calculator.calculateSumma(2, 3));
     }
