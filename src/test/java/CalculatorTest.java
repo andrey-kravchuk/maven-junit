@@ -19,14 +19,14 @@ public class CalculatorTest {
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
 
-//    @Ignore
+    @Ignore
     @Test
     public void failedTest(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
 
-//    @Ignore
+    @Ignore
     @Test
     public void testSumma3(){
         Calculator calculator = new Calculator();
