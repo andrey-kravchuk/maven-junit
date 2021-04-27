@@ -14,7 +14,7 @@ public class CalculatorTest {
 
 //    @Ignore
     @Test
-    public void testName(){
+    public void testSumm2(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
