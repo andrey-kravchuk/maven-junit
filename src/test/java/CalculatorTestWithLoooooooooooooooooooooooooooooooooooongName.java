@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class CalculatorTestWithLoooooooooooooooooooooooooooooooooooongName {
+class CalculatorTestWithLoooooooooooooooooooooooooooooooooooooooooooongName {
 
 
 
@@ -21,7 +21,7 @@ public class CalculatorTestWithLoooooooooooooooooooooooooooooooooooongName {
 
 //    @Ignore
     @Test
-    public void failedTestWithLooooooooooooooooooooooooooooooooooooooooooooooooooooooongName(){
+    public void failedTestWithLooooooooooooooooooooooooooooooooooooooooooooongName(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
