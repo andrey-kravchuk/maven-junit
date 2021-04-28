@@ -16,6 +16,8 @@ public class CalculatorTest {
     @Test
     public void testSumm2(){
         Calculator calculator = new Calculator();
+
+        Assert.assertEquals(6, calculator.calculateSumma(2, 3));
         try {
             wait(3000);
         } catch (InterruptedException e) {
@@ -28,6 +30,8 @@ public class CalculatorTest {
     @Test
     public void failedTest(){
         Calculator calculator = new Calculator();
+
+        Assert.assertEquals(7, calculator.calculateSumma(2, 3));
         try {
             wait(3000);
         } catch (InterruptedException e) {
