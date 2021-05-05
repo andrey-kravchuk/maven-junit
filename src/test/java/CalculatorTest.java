@@ -46,14 +46,14 @@ public class CalculatorTest {
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
 
-    //@Ignore
+    @Ignore
     @Test
     public void testSumma3(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(8, calculator.calculateSumma(2, 3));
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testSumma4(){
         Calculator calculator = new Calculator();
