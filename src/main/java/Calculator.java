@@ -1,6 +1,6 @@
 public class Calculator {
 
-    public int calculateSumma(int a, int b) {
+    public int calculateSumma(Integer a, Integer b) {
         return a + b;
     }
 }
