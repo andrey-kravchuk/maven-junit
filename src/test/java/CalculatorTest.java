@@ -12,7 +12,7 @@ public class CalculatorTest {
         Assert.assertEquals(5, calculator.calculateSumma(2, 3));
     }
 
-//    @Ignore my updates my new updates 1 2
+//    @Ignore my updates
     @Test
     public void testSumm2(){
         Calculator calculator = new Calculator();
@@ -26,7 +26,7 @@ public class CalculatorTest {
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
 
-    @Ignore
+//    @Ignore
     @Test
     public void failedTest(){
         Calculator calculator = new Calculator();
@@ -40,7 +40,7 @@ public class CalculatorTest {
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
 
-    @Ignore
+//    @Ignore
     @Test
     public void testSumma3(){
         Calculator calculator = new Calculator();
