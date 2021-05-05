@@ -15,16 +15,18 @@ public class CalculatorTest {
 
 //    @Ignore my updates
     @Test
-    public void testSumm2(){
+    public void testSumm2() throws InterruptedException {
         Calculator calculator = new Calculator();
+        Thread.sleep(100);
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
 
     }
 
 //    @Ignore
     @Test
-    public void failedTest(){
+    public void failedTest() throws InterruptedException {
         Calculator calculator = new Calculator();
+        Thread.sleep(100);
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
 
@@ -37,8 +39,9 @@ public class CalculatorTest {
 
     //@Ignore
     @Test
-    public void testSumma4(){
+    public void testSumma4() throws InterruptedException {
         Calculator calculator = new Calculator();
+        Thread.sleep(100);
         Assert.assertEquals(9, calculator.calculateSumma(2, 3));
     }
 
