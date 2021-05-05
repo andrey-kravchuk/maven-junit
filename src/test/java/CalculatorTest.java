@@ -18,11 +18,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
-        try {
-            wait(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
     }
 
@@ -32,11 +28,7 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
-        try {
-            wait(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         Assert.assertEquals(7, calculator.calculateSumma(2, 3));
     }
 
