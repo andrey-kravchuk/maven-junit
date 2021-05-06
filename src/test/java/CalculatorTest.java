@@ -17,7 +17,7 @@ public class CalculatorTest {
     @Test
     public void testSumm2() throws InterruptedException {
         Calculator calculator = new Calculator();
-        Thread.sleep(100);
+
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
 
     }
@@ -26,7 +26,7 @@ public class CalculatorTest {
     @Test
     public void failedTest() throws InterruptedException {
         Calculator calculator = new Calculator();
-        Thread.sleep(100);
+
         Assert.assertEquals(7, calculator.calculateSumma(2, 4));
     }
 
@@ -41,7 +41,7 @@ public class CalculatorTest {
     @Test
     public void testSumma4() throws InterruptedException {
         Calculator calculator = new Calculator();
-        Thread.sleep(100);
+
         Assert.assertEquals(9, calculator.calculateSumma(2, 3));
     }
 
