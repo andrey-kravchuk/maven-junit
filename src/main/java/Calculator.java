@@ -4,6 +4,7 @@ public class Calculator {
         return a + b;
     }
     // add comment 1
+    // add comment 2
     public int calculateDivide (Integer a, Integer b) {
         return a/b;
     }
