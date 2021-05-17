@@ -13,6 +13,13 @@ public class CalculatorTest {
 
     }
 
+    @Test
+    public void testSummOk(){
+        Calculator calculator = new Calculator();
+        Assert.assertEquals(5, calculator.calculateSumma(2, 3));
+
+    }
+
     @Ignore
     @Test
     public void testSumm2() throws InterruptedException {
