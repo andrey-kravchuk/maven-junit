@@ -45,4 +45,11 @@ public class CalculatorTest {
         Assert.assertEquals(9, calculator.calculateSumma(2, 3));
     }
 
+    @Test
+    public void testSummaWithLongNameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4() throws InterruptedException {
+        Calculator calculator = new Calculator();
+
+        Assert.assertEquals(9, calculator.calculateSumma(2, 3));
+    }
+
 }
