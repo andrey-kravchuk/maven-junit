@@ -6,4 +6,6 @@ public class Calculator {
     public int calculateDivide (Integer a, Integer b) {
         return a/b;
     }
+
+    //add comment
 }
