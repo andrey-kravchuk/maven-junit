@@ -44,7 +44,7 @@ public class CalculatorTest {
         Assert.assertEquals(8, calculator.calculateSumma(2, 3));
     }
 
-
+    @Ignore
     @Test
     public void testSumma4() throws InterruptedException {
         Calculator calculator = new Calculator();
