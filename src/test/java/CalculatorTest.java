@@ -50,6 +50,11 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(9, calculator.calculateSumma(2, 3));
+    }@Test
+
+    public void testSumma5() throws InterruptedException {
+        Calculator calculator = new Calculator();
+        Assert.assertEquals(9, calculator.calculateMulti(3, 3));
     }
 
 
