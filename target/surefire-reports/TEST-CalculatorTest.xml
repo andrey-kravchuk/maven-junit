@@ -65,15 +65,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="testSumm2" time="0.058">
+  <testcase classname="CalculatorTest" name="testSumm2" time="0.056">
     <skipped/>
   </testcase>
   <testcase classname="CalculatorTest" name="testSumm" time="0.001"/>
   <testcase classname="CalculatorTest" name="failedTest" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="CalculatorTest" name="testSummOk" time="0"/>
-  <testcase classname="CalculatorTest" name="testSumma3" time="0">
+  <testcase classname="CalculatorTest" name="testSummOk" time="0.001"/>
+  <testcase classname="CalculatorTest" name="testSumma3" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="CalculatorTest" name="testSumma4" time="0.001">
