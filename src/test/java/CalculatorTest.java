@@ -7,31 +7,29 @@ public class CalculatorTest {
 
 
     @Test
-    public void testSumm(){
+    public void testSum(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(5, calculator.calculateSumma(2, 3));
 
     }
 
     @Test
-    public void testSummOk(){
+    public void testSumOk(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(5, calculator.calculateSumma(2, 3));
 
     }
 
-    @Ignore
     @Test
-    public void testSumm2() throws InterruptedException {
+    public void testSum2() {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(6, calculator.calculateSumma(2, 3));
 
     }
 
-    @Ignore
     @Test
-    public void failedTest() throws InterruptedException {
+    public void failedTest() {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(7, calculator.calculateSumma(2, 4));
@@ -39,20 +37,20 @@ public class CalculatorTest {
 
     @Ignore
     @Test
-    public void testSumma3(){
+    public void testSum3(){
         Calculator calculator = new Calculator();
         Assert.assertEquals(8, calculator.calculateSumma(2, 3));
     }
 
     @Ignore
     @Test
-    public void testSumma4() throws InterruptedException {
+    public void testSum4() {
         Calculator calculator = new Calculator();
 
         Assert.assertEquals(9, calculator.calculateSumma(2, 3));
     }@Test
 
-    public void testSumma5() throws InterruptedException {
+    public void testSum5() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(9, calculator.calculateMulti(3, 3));
     }
